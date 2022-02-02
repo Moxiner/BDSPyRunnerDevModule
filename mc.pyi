@@ -445,13 +445,13 @@ def runCommand(command: str):
     ...
 
 
-def setListener(event: str, function: Callable[[Any], Optional[bool]]):
+def seretListener(event: str, function: Callable[[Any], Optional[bool]]):
     """
     设置监听器
 
     注:当只回传一个数据时，仅传递值而不传递字典
 
-    监听器列表见 https://github.com/twoone-3/BDSpyrunner/wiki/Listener
+    监听器列表见 https://github.com/twoone-3/BDSpyrunner/wiki/1.9.5-Version-Listener
 
     附带插件开发模板含所有监听器
 
